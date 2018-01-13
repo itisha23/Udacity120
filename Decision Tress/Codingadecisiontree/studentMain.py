@@ -9,18 +9,9 @@ from classifyDT import classify
 
 features_train, labels_train, features_test, labels_test = makeTerrainData()
 
-
-
 ### the classify() function in classifyDT is where the magic
 ### happens--fill in this function in the file 'classifyDT.py'!
 clf = classify(features_train, labels_train)
-
-
-
-
-
-
-
 #### grader code, do not modify below this line
 
 prettyPicture(clf, features_test, labels_test)
